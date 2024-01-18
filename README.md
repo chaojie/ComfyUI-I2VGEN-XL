@@ -12,12 +12,12 @@ How to fix problems:
 
 1. ValueError: attempted relative import beyond top-level package
 
-Delete all content in file '~/.cache/modelscope/hub/damo/i2vgen-xl/tools/__init__.py'
-Delete all content in file '~/.cache/modelscope/hub/damo/i2vgen-xl/tools/modules/__init__.py'
+Delete all content in file `~/.cache/modelscope/hub/damo/i2vgen-xl/tools/__init__.py`
+Delete all content in file `~/.cache/modelscope/hub/damo/i2vgen-xl/tools/modules/__init__.py`
 
 2. CUDA out of memory
 
-Edit '~/.cache/modelscope/hub/damo/i2vgen-xl/ms_wrapper.py'
+Edit `~/.cache/modelscope/hub/damo/i2vgen-xl/ms_wrapper.py`
 
 change `self.model.to(gpu)` to `self.model.half().to(gpu)`
 
