@@ -14,7 +14,6 @@ opencv-python>=4.4.0.46
 opencv-python-headless>=4.7.0.68
 torchsde>=0.2.6
 simplejson>=3.18.4
-motion-vector-extractor>=1.0.6
 scikit-learn
 scikit-image
 rotary-embedding-torch>=0.2.1
