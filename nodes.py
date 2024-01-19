@@ -43,7 +43,7 @@ class I2VGEN_XL_Simple:
             }
         }
 
-    RETURN_TYPES = ({},)
+    RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("video",)
     FUNCTION = "run_inference"
     CATEGORY = "Modelscope"
